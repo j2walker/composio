@@ -1,0 +1,21 @@
+[project]
+name = "composio-strands"
+version = "0.25.0"
+description = "Use Composio to get an array of strongly typed tools for Strands Agents"
+readme = "README.md"
+requires-python = ">=3.10,<4"
+authors = [
+    { name = "Composio", email = "tech@composio.dev" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "strands-agents>=1.0.0",
+    "composio",
+]
+
+[project.urls]
+Homepage = "https://github.com/ComposioHQ/composio"

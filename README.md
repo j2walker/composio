@@ -119,6 +119,7 @@ A provider adapts Composio tools to your agent framework's native tool format:
 | OpenAI Agents | [`@composio/openai-agents`](ts/packages/providers/openai-agents) | [`composio-openai-agents`](python/providers/openai_agents) |
 | Anthropic | [`@composio/anthropic`](ts/packages/providers/anthropic) | [`composio-anthropic`](python/providers/anthropic) |
 | Claude Agent SDK | [`@composio/claude-agent-sdk`](ts/packages/providers/claude-agent-sdk) | [`composio-claude-agent-sdk`](python/providers/claude_agent_sdk) |
+| Strands Agents | — | [`composio-strands`](python/providers/strands) |
 | Vercel AI SDK | [`@composio/vercel`](ts/packages/providers/vercel) | — |
 | Google GenAI | [`@composio/google`](ts/packages/providers/google) | [`composio-gemini`](python/providers/gemini), [`composio-google`](python/providers/google) |
 | Google ADK | — | [`composio-google-adk`](python/providers/google_adk) |
